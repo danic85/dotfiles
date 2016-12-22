@@ -1,6 +1,8 @@
+[dan]
+ nicholson = Dan Nicholson
 [user]
-  name = Adam Georgeson
-  email = adam.georgeson@sage.com
+  name = Dan Nicholson
+  email = daniel.nicholson@sage.com
 [alias]
   st = status
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
@@ -13,4 +15,4 @@
 [mergetool]
 	prompt = false
 [core]
-	excludesfile = /Users/adamgeorgeson/.gitignore
+excludesfile = /Users/dan/.gitignore
