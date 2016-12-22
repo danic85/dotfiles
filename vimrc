@@ -53,9 +53,9 @@ let g:airline#extensions#branch#displayed_head_limit = 10
 let g:airline#extensions#syntastic#enabled = 1
 
 " Open NerdTree on opening of Vim
-autocmd vimenter * NERDTree
-autocmd vimenter * if !argc() | NERDTree | endif
-let NERDTreeShowHidden=1
+" autocmd vimenter * NERDTree
+" autocmd vimenter * if !argc() | NERDTree | endif
+" let NERDTreeShowHidden=1
 
 set showcmd                       " Display incomplete commands.
 set showmode                      " Display the mode you're in.

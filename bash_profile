@@ -1,6 +1,3 @@
-export ANDROID=/Users/adamgeorgeson/Library/Android/sdk
-export GOPATH=/Users/adamgeorgeson/dev/go
-
 export MYSQL_USERNAME='root'
 export MYSQL_PASSWORD='admin'
 
@@ -26,8 +23,6 @@ export EDITOR='vim'
 
 # Local API Testing
 # ngrok start --all
-export TUNNELED_MS1='http://mso-adamgeorgeson.ngrok.io'
-export TUNNELED_GAC='http://gac-adamgeorgeson.ngrok.io'
 alias apiboot="MS1_UK_ACCOUNTS_EXTRA_SERVER=$TUNNELED_GAC GAC_MYSAGEONE_SERVER=$TUNNELED_MS1 bundle exec rails s"
 alias apibootus="MS1_US_ACCOUNTS_EXTRA_SERVER=$TUNNELED_GAC GAC_MYSAGEONE_SERVER=$TUNNELED_MS1 bundle exec rails s"
 alias tunnel="ngrok start --all"
@@ -204,3 +199,6 @@ function prompt_command {
 
 # Initialisation commands
 PROMPT_COMMAND=prompt_command
+export CUMULUSCI_PATH=~/development/sage-live/workspace/CumulusCI
+export ANT_OPTS=-Xmx2g
+export CUMULUS_CLI=True

@@ -15,4 +15,5 @@
 [mergetool]
 	prompt = false
 [core]
-excludesfile = /Users/dan/.gitignore
+	excludesfile = /Users/daniel.nicholson/.gitignore
+	autocrlf = input
