@@ -2,7 +2,7 @@
  nicholson = Dan Nicholson
 [user]
   name = Dan Nicholson
-  email = daniel.nicholson@sage.com
+  email = dan.nicholson@appsolutely.nl
 [alias]
   st = status
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
@@ -15,5 +15,5 @@
 [mergetool]
 	prompt = false
 [core]
-	excludesfile = /Users/daniel.nicholson/.gitignore
+	excludesfile = /Users/dan.nicholson/.gitignore
 	autocrlf = input
