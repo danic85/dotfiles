@@ -1,7 +1,5 @@
-[dan]
- nicholson = Dan Nicholson
 [user]
-  name = Dan Nicholson
+	name = Dan Nicholson
   email = dan.nicholson@appsolutely.nl
 [alias]
   st = status
@@ -17,3 +15,5 @@
 [core]
 	excludesfile = /Users/dan.nicholson/.gitignore
 	autocrlf = input
+[credential]
+	helper = osxkeychain
